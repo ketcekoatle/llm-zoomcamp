@@ -138,6 +138,16 @@ celerybeat.pid
 *.aof
 *.pid
 
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+
 # RabbitMQ
 mnesia/
 rabbitmq/
